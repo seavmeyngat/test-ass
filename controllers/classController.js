@@ -1,5 +1,5 @@
 import classModel from "../models/classModel.js";
-
+// import studentModel from "../models/studentModel.js";
 export const createClass = async (req, res) => {
   const { className, roomNumber} = req.body;
   try {
